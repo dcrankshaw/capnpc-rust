@@ -24,7 +24,7 @@ name = "capnpc-rust"
 path = "src/main.rs"
 
 
-[dependencies]
-capnp = "0.6"
+[dependencies.capnp]
+git = "https://github.com/dcrankshaw/capnproto-rust"
 
 
